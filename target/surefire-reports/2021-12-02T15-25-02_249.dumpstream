@@ -1,0 +1,99 @@
+# Created at 2021-12-02T15:25:03.023
+java.io.FileNotFoundException: C:\Users\?????????\IdeaProjects\Test10.4\target\jacoco.exec (������� �� ������� ����� ��������� ����)
+
+# Created at 2021-12-02T15:25:03.024
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+
+# Created at 2021-12-02T15:25:03.027
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+
+# Created at 2021-12-02T15:25:03.028
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+
+# Created at 2021-12-02T15:25:03.041
+	at org.jacoco.agent.rt.internal_43f5073.output.FileOutput.openFile(FileOutput.java:68)
+
+# Created at 2021-12-02T15:25:03.045
+	at org.jacoco.agent.rt.internal_43f5073.output.FileOutput.startup(FileOutput.java:50)
+
+# Created at 2021-12-02T15:25:03.045
+	at org.jacoco.agent.rt.internal_43f5073.Agent.startup(Agent.java:129)
+
+# Created at 2021-12-02T15:25:03.046
+	at org.jacoco.agent.rt.internal_43f5073.Agent.getInstance(Agent.java:54)
+
+# Created at 2021-12-02T15:25:03.046
+	at org.jacoco.agent.rt.internal_43f5073.PreMain.premain(PreMain.java:50)
+
+# Created at 2021-12-02T15:25:03.047
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2021-12-02T15:25:03.047
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2021-12-02T15:25:03.047
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2021-12-02T15:25:03.050
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+# Created at 2021-12-02T15:25:03.051
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+
+# Created at 2021-12-02T15:25:03.053
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+# Created at 2021-12-02T15:25:03.053
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+
+# Created at 2021-12-02T15:25:03.053
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2021-12-02T15:25:03.054
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2021-12-02T15:25:03.054
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2021-12-02T15:25:03.055
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+# Created at 2021-12-02T15:25:03.056
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+
+# Created at 2021-12-02T15:25:03.056
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+# Created at 2021-12-02T15:25:03.057
+Caused by: java.io.FileNotFoundException: C:\Users\?????????\IdeaProjects\Test10.4\target\jacoco.exec (������� �� ������� ����� ��������� ����)
+
+# Created at 2021-12-02T15:25:03.057
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+
+# Created at 2021-12-02T15:25:03.062
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+
+# Created at 2021-12-02T15:25:03.063
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+
+# Created at 2021-12-02T15:25:03.064
+	at org.jacoco.agent.rt.internal_43f5073.output.FileOutput.openFile(FileOutput.java:68)
+
+# Created at 2021-12-02T15:25:03.064
+	at org.jacoco.agent.rt.internal_43f5073.output.FileOutput.startup(FileOutput.java:50)
+
+# Created at 2021-12-02T15:25:03.064
+	at org.jacoco.agent.rt.internal_43f5073.Agent.startup(Agent.java:129)
+
+# Created at 2021-12-02T15:25:03.066
+	at org.jacoco.agent.rt.internal_43f5073.Agent.getInstance(Agent.java:54)
+
+# Created at 2021-12-02T15:25:03.067
+	at org.jacoco.agent.rt.internal_43f5073.PreMain.premain(PreMain.java:50)
+
+# Created at 2021-12-02T15:25:03.067
+	... 6 more
+
+# Created at 2021-12-02T15:25:03.068
+*** java.lang.instrument ASSERTION FAILED ***: "result" with message agent load/premain call failed at ./src/java.instrument/share/native/libinstrument/JPLISAgent.c line: 422
+
